@@ -1,0 +1,21 @@
+.grey {
+    color: #757575
+}
+.category li button {
+    background-color: #F5F4FA;
+    border: none;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+}
+.category li.active button {
+    background-color: #2196F3;
+    color: #fff;
+}
+.portfolio .preview p {
+    display: none;
+}
+.portfolio:hover .preview p {
+    display: block;
+    background-color: rgba(33, 150, 243, 0.9);
+    color: #fff;
+}

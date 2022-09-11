@@ -1,0 +1,46 @@
+/*
+
+#212121-primary-text-color
+#2196F3-accent
+#757575-secondary-text-color
+#ffffff-inverted-color
+#2F303A-ba
+
+*/
+:root {
+    --primary-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --secondary-text-color: #757575;
+    --inverted-text-color: #ffffff;
+    --background-color: #2F303A;
+
+}
+.nav-link {
+    /* font-family:"Roboto"; */
+    font-style: normal;
+    font-weight: 500;
+    font-size:
+}
+
+
+body{
+    font-family:"Roboto", sans-serif;
+    color: var(--primary-text-color);
+}
+
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: #212121;
+}
+nav ul li.active a {
+    color: #2196F3;
+}
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
